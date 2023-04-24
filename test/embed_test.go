@@ -91,3 +91,7 @@ func TestPathMatcher(t *testing.T) {
 		}
 	}
 }
+
+func SayHello(name string) string {
+	return "Hello " + name
+}
